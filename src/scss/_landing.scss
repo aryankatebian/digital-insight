@@ -1,0 +1,58 @@
+.landing{
+   min-height: 80vh;
+}
+.container {
+    margin: 5% 10%;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 74vh;
+    min-height: 600px;
+    display: flex;
+}
+.profile{
+    width: 40%;
+    background: #31313a;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    &::before{
+        content: '';
+        position: absolute;
+        z-index: 2;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        background:linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(255, 152, 0, 0.1) 100%);
+        
+        opacity: .3;
+    }
+
+}
+.pages{
+    background: #31313a;
+    width: 70%;
+    margin: 20px 0;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+.pages::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+  }
+  .pages::-webkit-scrollbar-track {
+    background: rgb(32, 32, 32);        /* color of the tracking area */
+  }
+  .pages::-webkit-scrollbar-thumb {
+    background-color: orange;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid orange;  /* creates padding around scroll thumb */
+  }
