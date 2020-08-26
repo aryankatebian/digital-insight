@@ -18,10 +18,10 @@ const Profile = () => {
             <h1 className="myh1">Emma Doe</h1>
             <h2 className="myh2">Web Developer</h2>
             <div className="social">
-                <a target="_blank" rel="noopener noreferrer" href="https://dribbble.com/"><LogoFacebook color='orange' /></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/"><LogoTwitter color='orange' /></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/"><LogoGithub color='orange' /></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.spotify.com/"><LogoInstagram color='orange' /></a>
+                <a target="_blank" href="https://dribbble.com/"><LogoFacebook color='orange' className="social-icon" fontSize="30px" /></a>
+                <a target="_blank" href="https://twitter.com/"><LogoTwitter color='orange' className="social-icon" fontSize="30px" /></a>
+                <a target="_blank" href="https://github.com/"><LogoGithub color='orange' className="social-icon" fontSize="30px" /></a>
+                <a target="_blank" href="https://www.spotify.com/"><LogoInstagram color='orange' className="social-icon" fontSize="30px" /></a>
             </div>
             <div className="btns">
                 <button href="#" className="btn left" >Download C.V  <IosCloudDownloadOutline color="white" className="icon" /></button>

@@ -40,7 +40,7 @@ export default class D3Chart {
             { source: "JavaScript", target: "LiveScript" }
         ];
 
-        const main = d3.select("#chart");
+        const main = d3.select("#linked-chart");
 
 
         // change the dimensions according to the gap between the nodes, and the number of nodes itself
@@ -73,7 +73,7 @@ export default class D3Chart {
 
         const scaleColor = d3.schemeSet2;
 
-        svg.attr("transform", `translate(${scaleX.bandwidth() * 4} ${scaleX.bandwidth() * 4})`);
+        //svg.attr("transform", `translate(${scaleX.bandwidth() * 4} ${scaleX.bandwidth() * 4})`);
 
         // links
         svg.append("g").attr("class", "links");

@@ -5,6 +5,11 @@
     border-bottom: solid 1px rgba(255, 152, 0, 0.3);
     font-weight: 500;
     font-size: 1.7rem;
+    text-shadow: 0 0px 10px #c4b59d,0 0px 0px #fff;
+    box-shadow: 
+		1px 1px 0 rgba(252, 152, 112, 0.149), 
+		-1px 1px 0 rgba(252, 152, 112, 0.149), 
+		1px 1px 0 rgba(252, 152, 112, 0.158), 
 }
 .section-flex{
     display: flex;
@@ -35,6 +40,10 @@
     }
 }
 
-#chart{
+#linked-chart{
     transform: rotate(-90deg);
+    margin-top: 70px;
+}
+#bubble-chart{
+    margin-top: 80px;
 }

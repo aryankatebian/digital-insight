@@ -1,8 +1,9 @@
 import React from 'react'
 import '../../scss/_about.scss'
-import MdFemale from 'react-ionicons/lib/MdFemale'
+import MdWoman from 'react-ionicons/lib/MdWoman'
 import ChartWrapper from '../charts/ChartWrapper';
 import ChartWrapper2 from '../charts/ChartWrapper2';
+import ChartWrapper3 from '../charts/ChartWrapper3';
 
 
 const About = () => {
@@ -17,7 +18,7 @@ const About = () => {
                     <div className="about-list">
                         <ul>
                             <li><strong>age .....</strong><div className="float-right">25</div></li>
-                            <li><strong>gender .....</strong><div className="float-right"><MdFemale color="white" /></div></li>
+                            <li><strong>gender .....</strong><div className="float-right"><MdWoman color="white" fontSize="25px" /></div></li>
                             <li><strong>occupation .....</strong><div className="float-right">Web Developer</div></li>
                             <li><strong>mobile .....</strong><div className="float-right">07-8282-222</div></li>
                             <li><strong>email .....</strong><div className="float-right">emma_doe@gmail.com</div></li>
@@ -28,12 +29,24 @@ const About = () => {
             </div>
             <div className="section">
                 <h1 className="title">Skills</h1>
-                <div className="section-flex" id="chart">
-                    <ChartWrapper />
+                <div className="section-flex">
+                    <div className="section-flex" id="bubble-chart">
+                        <ChartWrapper />
+                    </div>
+                    <div className="section-flex" id="linked-chart">
+                        <ChartWrapper2 />
+                    </div>
+
                 </div>
-                <div className="section-flex" id="bubble-chart">
-                    <ChartWrapper2 />
+
+            </div>
+            <div className="section">
+                <h1 className="title">Git</h1>
+                <h2 className="myh2">Git Contribution In The Current year</h2>
+                <div id="git-chart">
+                    <ChartWrapper3 />
                 </div>
+
             </div>
         </>
     )

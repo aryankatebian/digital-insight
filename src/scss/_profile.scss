@@ -38,12 +38,13 @@
     position: relative;
 }
 .myh2{
-    font-weight: 300;
+    font-weight: 500;
+    text-align: center;
 }
-.social{
+.social{ 
     padding-top: 20px;
     a{
-        padding:20px;
+        padding:7px;
     }
 }
 
@@ -68,3 +69,32 @@
 .icon{
     transform: translateY(6px);
 }
+
+.social-icon{
+    position: relative;
+    z-index: 100;
+    transition: all .3s ease-in-out;
+    &:hover{
+        transform: scale(1.2);
+        
+    }
+}
+
+.sphere {
+    fill: #42a4ff;
+  }
+  
+  .country {
+    stroke: black;
+    stroke-width: 0.05px;
+  }
+  
+  .country:hover {
+    fill: red;
+  }
+  
+  .tick text {
+    font-size: 1em;
+    font-family: sans-serif;
+    fill: black;
+  }

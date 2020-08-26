@@ -11,7 +11,7 @@ export const Header = () => {
             <div className="top-menu">
                 <ul>
                     <li className="active">
-                        <a href="/">
+                        <a href="/" >
                             <MdPerson color="white" />
                             <br />
                             <span className="link">About</span>
